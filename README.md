@@ -95,10 +95,19 @@ make
   ```bash
   pkg-config --modversion opencv4
   ```
-  
-## Future Enhancements
+## Limitations
+1. Fixed resolution grid  
+  The coverage planner operates on a fixed 2D occupancy grid. It does not currently support variable resolution or adaptive grids.
+2. No dynamic obstacle handling  
+  The current implementation assumes a static environment. Moving obstacles or real-time re-planning are not supported.
+3. Single-agent only  
+   Multi-agent coordination or parallel coverage is not implemented.
+4. No path smoothing 
+  The A\* paths and boustrophedon sweeps are not post-processed for smoothness or curvature, making them unsuitable for non-holonomic robots without additional filtering.
+5. Only vertical sweeping
+  The coverage is restricted to top-down (column-wise) boustrophedon sweeps; horizontal or adaptive sweep strategies are not yet implemented.
 
-1. ROS2 integration for real robot deployment
-2. Dynamic obstacle handling
-3. GUI for interactive map creation
-4. Multi-agent coverage support
+## Future Enhancements 
+1. Dynamic obstacle handling
+2. GUI for interactive map creation
+3. Multi-agent coverage support

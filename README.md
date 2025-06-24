@@ -59,7 +59,7 @@ The implementation is modular, written in modern C++ (C++17), and designed to be
 - OpenCV (>= 4.x recommended)
 
 ### Project Structure
-![Screenshot from 2025-06-24 19-45-59](https://github.com/user-attachments/assets/96087a56-9f54-455f-bf38-1f84c97e9389)
+![layout](https://github.com/user-attachments/assets/a9656db4-6adf-492e-8639-8b12839f51f2)
 
 ### Build & Run
 Open a terminal and run:

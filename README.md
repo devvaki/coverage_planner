@@ -26,7 +26,6 @@ The implementation is modular, written in modern C++ (C++17), and designed to be
 - Modular structure for easy extension
 
 ## Demo
-[demo_video.webm](https://github.com/user-attachments/assets/20c67d84-d5bf-4ff1-970b-7996b68483a1)
 
 ## Tech Stack
 
